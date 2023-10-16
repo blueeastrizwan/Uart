@@ -1,0 +1,48 @@
+Baud rate:
+
+Port:
+
+Data Bits: 5, 6, 7, 8, 9
+
+Parity: none,odd,even,mark,space
+
+Start bits: 1
+
+Stop bits: 1, 1.5, 2
+
+Hardware Flow control: none, RTS/CTS, DTR/DSR, RS485-rts
+
+Software Flow Control: Receive Xon Char , Transmit Xoff Char
+
+Enable cts flow control:
+
+Static: black check character, cyclic redundancy check
+
+RTS/CTS Delay: ms
+
+Status: Connected, RXD, TXD, CTS, DCD, DSR, RING, BREAK, ERROR
+
+Hand shake: Single handshake, double handshake, None, Xon, Rts, RtsXon
+
+
+Timeout: msec
+
+RTS Control: disable, enable, handshake, toggle
+
+DTR Control: disable, enable, handshake
+
+Terminator (End of line string): CR, LF
+
+Winsock is: Raw, Telnet
+
+-------------------------Connections--------------------------
+DB-9 Connector
+1- CD
+2- TXD
+3- RXD
+4- DTR
+5- GND
+6- DSR
+7- CTS
+8- RTS
+9- RI
