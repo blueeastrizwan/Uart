@@ -1,0 +1,15 @@
+git init
+
+git commit -m "Uart"
+
+git log
+
+git add .
+
+git commit -m "Uart"
+
+git remote add origin https://github.com/blueeastrizwan/Uart.git
+
+git push -u origin main	//upload code
+
+
